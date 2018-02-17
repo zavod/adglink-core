@@ -1,4 +1,4 @@
-BitShares Core
+AdgLink Core
 ==============
 * [Getting Started](#getting-started)
 * [Support](#support)
@@ -7,7 +7,7 @@ BitShares Core
 * [FAQ](#faq)
 * [License](#license)
 
-BitShares Core is the BitShares blockchain implementation and command-line interface.
+ADgLink Core is the fork of BitShares blockchain implementation and command-line interface.
 The web wallet is [BitShares UI](https://github.com/bitshares/bitshares-ui).
 
 Visit [BitShares.org](https://bitshares.org/) to learn about BitShares and join the community at [BitSharesTalk.org](https://bitsharestalk.org/).
@@ -15,7 +15,7 @@ Visit [BitShares.org](https://bitshares.org/) to learn about BitShares and join 
 **NOTE:** The official BitShares git repository location, default branch, and submodule remotes were recently changed. Existing
 repositories can be updated with the following steps:
 
-    git remote set-url origin https://github.com/bitshares/bitshares-core.git
+    git remote set-url origin https://github.com/zavod/adglink-core.git
     git checkout master
     git remote set-head origin --auto
     git pull
@@ -34,9 +34,8 @@ We recommend building on Ubuntu 16.04 LTS, and the build dependencies may be ins
 
 To build after all dependencies are installed:
 
-    git clone https://github.com/bitshares/bitshares-core.git
-    cd bitshares-core
-    git checkout <LATEST_RELEASE_TAG>
+    git clone https://github.com/zavod/adglink-core.git
+    cd adglink-core
     git submodule update --init --recursive
     cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo .
     make
