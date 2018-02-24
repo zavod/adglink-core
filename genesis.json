@@ -226,33 +226,40 @@
     "extensions": []
   },
   "initial_accounts": [{
-      "name": "alp",
-      "owner_key": "ADGfvrgMedqihUdYTjKqZLRLYR7PfgfJZzuTiZeRskVmxifMjrjMXdbgwHdi9H7jLK7",
-      "active_key": "ADGn4sho9yTY9NvfxNGhjQcPhNdRnLbEwMXuMpKpFnXF4nMhxZrzpieUxjmEtKLfbWR",
+      "name": "node1",
+      "owner_key": "ADG5NptoiFLYSe8gu9bvXpb4Ga6ykEmD7AArwsfvJzdtWkN3vfUmj",
+      "active_key": "ADG8gMNNqb63vDZcVCTaGByUyXeA6xGngbcTEfo4UMmY95wo8pEY4",
       "is_lifetime_member": true
     },{
-      "name": "alp2",
-      "owner_key": "ADGgqjgMzLF6tpCmAhNFtRvg4DZkLNfHUzFH3qV6UkQLhkHLdaKrJxCKDnpUWyJqdhB",
-      "active_key": "ADG7NWcD9hzVJqDXTgVpLznFzHwzWtNmyYi7jgmiZbvHEwhUgbzAmX8jCCBoxdtaekj",
+      "name": "node2",
+      "owner_key": "ADG8e7NwTCKpr9F6qkGQCUYoq1NEPWb5YbQQxRjzgULxzaKytgsTu",
+      "active_key": "ADG6ikuWdWcmz8agYR235BcACfb2giXtLMKbjbdDEpJdhFQGskM6D",
       "is_lifetime_member": true
     },{
-      "name": "alp3",
-      "owner_key": "ADGFWvVEydNfur9ttHdtiGgntw8NbvdhZVHEZEexJdKgNzWCrLEHd9LtVoXtjoX6ekF",
-      "active_key": "ADGPTpXMHVwe4AAivtRddeUPdFoviXFqLfwreaTjbP9wFpZB8uNP3ocbBWGoJYcgTjq",
+      "name": "node3",
+      "owner_key": "ADG6R4MDss4wkxNsPaYAxCtqMm47cyBAtnRqqFFZuiK5zd55EBgDE",
+      "active_key": "ADG6wd5zPqJ1adpysRtz3PJEyRRv9i9hQhqgg26Zxk3Vb5gFnvbNi",
       "is_lifetime_member": true
     },
 
     {
       "name": "faucet",
-      "owner_key": "ADGn4sho9yTY9NvfxNGhjQcPhNdRnLbEwMXuMpKpFnXF4nMhxZrzpieUxjmEtKLfbWR",
-      "active_key": "ADGfQEvsJmpNzQpfkkMvcTKqnrqzPu7Mffv8D2MePZKnGVqfDdoBQPYsu8LweiXDNcc",
+      "owner_key": "ADG5sfw95nAP49KJdideQu7q5iUN9FEgPj5mQBtrncSvJnUMRXEay",
+      "active_key": "ADG6wd5zPqJ1adpysRtz3PJEyRRv9i9hQhqgg26Zxk3Vb5gFnvbNi",
+      "is_lifetime_member": true
+    },
+
+    {
+      "name": "nathan",
+      "owner_key": "ADG5K8PxAQNc4ECJoUXaaffibbAHGQff7WUDSvwJ6JxacZD2M2QpY",
+      "active_key": "ADG5K8PxAQNc4ECJoUXaaffibbAHGQff7WUDSvwJ6JxacZD2M2QpY",
       "is_lifetime_member": true
     }
    
   ],
   "initial_assets": [],
   "initial_balances": [{
-      "owner": "ADGlMztEUvayjhMPJgghEkqUyr8TdvV8WGmVijBb7AeugFdDbrfmPPJkmckavR3BbXA",
+      "owner": "ADG11CMY1PYTkBGixS3gF2tEN7Qb9Thk6K1",
       "asset_symbol": "ADG",
       "amount": "21000000000000"
     }
@@ -260,22 +267,22 @@
   "initial_vesting_balances": [],
   "initial_active_witnesses": 3,
   "initial_witness_candidates": [{
-      "owner_name": "alp",
-      "block_signing_key": "ADGn4sho9yTY9NvfxNGhjQcPhNdRnLbEwMXuMpKpFnXF4nMhxZrzpieUxjmEtKLfbWR"
+      "owner_name": "node1",
+      "block_signing_key": "ADG8gMNNqb63vDZcVCTaGByUyXeA6xGngbcTEfo4UMmY95wo8pEY4"
     },{
-      "owner_name": "alp2",
-      "block_signing_key": "ADG7NWcD9hzVJqDXTgVpLznFzHwzWtNmyYi7jgmiZbvHEwhUgbzAmX8jCCBoxdtaekj"
+      "owner_name": "node2",
+      "block_signing_key": "ADG6ikuWdWcmz8agYR235BcACfb2giXtLMKbjbdDEpJdhFQGskM6D"
     },{
-      "owner_name": "alp3",
-      "block_signing_key": "ADGPTpXMHVwe4AAivtRddeUPdFoviXFqLfwreaTjbP9wFpZB8uNP3ocbBWGoJYcgTjq"
+      "owner_name": "node3",
+      "block_signing_key": "ADG6wd5zPqJ1adpysRtz3PJEyRRv9i9hQhqgg26Zxk3Vb5gFnvbNi"
     }
   ],
   "initial_committee_candidates": [{
-      "owner_name": "alp"
+      "owner_name": "node1"
     },{
-      "owner_name": "alp2"
+      "owner_name": "node2"
     },{
-      "owner_name": "alp3"
+      "owner_name": "node3"
     }
   ],
   "initial_worker_candidates": [],
