@@ -251,15 +251,15 @@
 
     {
       "name": "nathan",
-      "owner_key": "ADG5K8PxAQNc4ECJoUXaaffibbAHGQff7WUDSvwJ6JxacZD2M2QpY",
-      "active_key": "ADG5K8PxAQNc4ECJoUXaaffibbAHGQff7WUDSvwJ6JxacZD2M2QpY",
-      "is_lifetime_member": true
+      "owner_key": "ADG6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "active_key": "ADG6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV",
+      "is_lifetime_member": false
     }
    
   ],
   "initial_assets": [],
   "initial_balances": [{
-      "owner": "ADG11CMY1PYTkBGixS3gF2tEN7Qb9Thk6K1",
+      "owner": "ADGFAbAx7yuxt725qSZvfwWqkdCwp9ZnUama",
       "asset_symbol": "ADG",
       "amount": "21000000000000"
     }
