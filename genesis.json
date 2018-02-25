@@ -1,6 +1,6 @@
 {
   "initial_timestamp": "2018-02-02T21:20:00",
-  "max_core_supply": "21000000000000",
+  "max_core_supply": "2100000000000000000",
   "initial_parameters": {
     "current_fees": {
       "parameters": [[
@@ -261,7 +261,7 @@
   "initial_balances": [{
       "owner": "ADGFAbAx7yuxt725qSZvfwWqkdCwp9ZnUama",
       "asset_symbol": "ADG",
-      "amount": "21000000000000"
+      "amount": "2100000000000000000"
     }
   ],
   "initial_vesting_balances": [],
